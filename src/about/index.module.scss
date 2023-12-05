@@ -1,0 +1,827 @@
+@media (min-width:1024px) {
+    html {
+        margin: 0;
+        box-sizing: border-box;
+    }
+   
+    .header_tabs {
+        display: flex;
+        column-gap: 10px;
+        list-style: none;
+        padding-left: 0px;
+        margin: 0 0 70px 0;
+    }
+
+    .navbar {
+        text-decoration: none;
+        color: #111827;
+    }
+
+    .navbar::after {
+        content: "|";
+        font-weight: bold;
+        color: #999;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+
+    .navbar_link {
+        text-decoration: none;
+        color: #999;
+    }
+
+    .about_header_waper {
+        padding: 0 155px;
+
+    }
+
+    .about_post {
+        width: calc(100% - 310px);
+        padding: 0 155px;
+        display: flex;
+
+    }
+
+    .about_post_left {
+        width: 50%;
+        height: 600px;
+        background: #E5F8FD;
+    }
+    .title_team{
+        color: var(--toy-kid-1-a-1114, #1A1114);
+        text-align: center;
+        margin-top: 50px;
+        font-family: Poppins;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px; /* 129.63% */
+        text-transform: capitalize;
+    }
+    .post_video {
+        width: 50%;
+        position: relative;
+    }
+
+  
+    
+    .post_button_header_mobile{
+        display: none;
+    }
+    .playVideo {
+        position: relative;
+        top: -360px;
+        left: 270px;
+        width: 90px;
+        height: 90px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+
+    .playIcon {
+        color: var(--Toy-kid, #EC80A0);
+        font-size: 42px;
+        position: relative;
+        top: 25px;
+        left: 33px
+    }
+
+    .post_video img {
+        width: 100% !important;
+    }
+
+    .TextButton {
+        margin: 0;
+    }
+
+    .about_header p {
+        color: var(--toy-kid-1-a-1114, #1A1114);
+        font-family: Poppins;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+        margin: 0;
+        padding: 100px 0 15px 0;
+        text-transform: capitalize;
+    }
+
+    .about_post_content p {
+        color: var(--toy-kid-1-a-1114, #1A1114);
+        font-family: Poppins;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 65px;
+        text-transform: capitalize;
+        padding: 0 67px 40px 90px;
+        margin: 0;
+    }
+
+    .about_post_content {
+        width: 548px;
+    }
+
+    .post_header {
+        padding: 112px 0 27px 90px;
+    }
+
+    .post_header button {
+        width: 106px;
+        height: 36px;
+        background-color: rgba(236, 128, 160, 0.15);
+        border-radius: 5px;
+        border: none;
+        color: var(--Toy-kid, #EC80A0);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+    }
+
+    .post_button {
+        padding: 0 40px 0 90px;
+    }
+
+    .post_button button {
+        padding: 17px 40px;
+        align-items: flex-start;
+        border-radius: 10px;
+        background: var(--Toy-kid, #EC80A0);
+        gap: 10px;
+        border: none;
+        color: var(--White, #FFF);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .post_video img {
+        width: 705px;
+        height: 600px;
+    }
+
+    .about_evaluate p {
+        color: var(--toy-kid-1-a-1114, #1A1114);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+        text-transform: capitalize;
+        margin: 0 0 50px 0;
+    }
+
+    .evaluate_header {
+        text-align: center;
+
+    }
+
+    .all_review_waper {
+        display: flex;
+        width: 80%;
+        margin: 0 155px;
+        justify-content: space-between;
+        column-gap: 30px;
+    }
+
+    .all_review {
+        width: 30%;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(10, 30, 35, 0.10);
+    }
+
+    .number_review p {
+        color: #EC80A0;
+        font-family: Poppins;
+        text-align: center;
+        padding: 40px 0 20px 0;
+        margin: 0;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 55px;
+        text-transform: capitalize
+    }
+
+    .all_review_title p {
+        color: #1A1114;
+        text-align: center;
+        margin: 0;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 31px;
+        padding-bottom: 10px;
+    }
+
+    .review_content p {
+        color: #0A1E23;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        padding: 0 30px;
+        font-weight: 400;
+        line-height: 26px;
+
+    }
+
+    .photo_right_button {
+        color: var(--toy-kid-1-a-1114, #1A1114);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+        text-transform: capitalize;
+        margin: 0 0 50px 0;
+    }
+
+    .our_team {
+        display: flex;
+        width: 80%;
+        padding: 0 155px;
+        justify-content: space-between;
+        column-gap: 30px;
+    }
+
+    .user_waper img {
+        margin-top: 40px;
+        width: 130px;
+        border-radius: 50%;
+        flex-shrink: 0;
+    }
+
+    .user_waper {
+        width: 25%;
+        text-align: center;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(10, 30, 35, 0.10);
+    }
+
+    .user_name p {
+        color: #1A1114;
+        text-align: center;
+        font-family: Poppins;
+        margin: 0;
+        padding: 25px 0 5px 0;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 31px
+    }
+
+    .nick_name p {
+        color: #1A1114;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 15px;
+        opacity: 0.5;
+        margin: 0;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .description p {
+        color: var(--Ofice-Furnitured-text, #0A1E23);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 10px;
+        padding: 0 30px;
+    }
+
+    .user_icon {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        column-gap: 15px;
+        z-index: 1;
+    }
+
+    .transport_round {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        border: 1px solid var(--Toy-kid, #EC80A0);
+        background: var(--White, #FFF);
+        opacity: 1 !important;
+        z-index: -1;
+    }
+
+    .transport_content {
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+    }
+    .transport_icon {
+        position: relative;
+        color: #EC80A0;
+        top: -42px;
+        left: 22px;
+    }
+
+    .transport_wapper {
+        display: flex;
+        margin: 100px 155px 0 155px;
+        border: 1px solid rgba(26, 17, 20, 0.1);
+        align-items: center;
+        justify-content: space-around;
+        height: 160px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    .transport_title p {
+        color: var(--Main, #111827);
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 31px;
+        text-transform: capitalize;
+        margin: 0;
+    }
+
+    .transport_text p {
+        color: var(--Body, #585D67);
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 0;
+        width: max-content;
+    }
+
+    .advertising_photo {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        column-gap: 25px;
+        padding: 100px 152px;
+    }
+
+    .photo_left {
+        width: 33%;
+        height: 550px;
+
+        border-radius: 20px;
+    }
+
+    .photo_rights {
+        width: 33%;
+        height: 550px;
+        border-radius: 20px;
+        background: #FDF4F7;
+    }
+
+    .photo_center {
+        width: 33%;
+    }
+
+    .photo_left img {
+        width: 100%;
+        height: 550px;
+    }
+
+    .photo_center img {
+        width: 100%;
+        height: 650px;
+        border-radius: 20px;
+    }
+
+    .photo_right_title {
+        color: var(--toy-kid-1-a-1114, #1A1114);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 30px;
+        padding: 88px 41px 40px 41px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        text-transform: capitalize;
+        margin: 0;
+        max-height: 368px;
+    }
+
+    .photo_right_text {
+        color: var(--Ofice-Furnitured-text, #0A1E23);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 0;
+        padding: 0 73px 54px 54px;
+    }
+
+    .photo_right_button button {
+        border-radius: 10px;
+        background: var(--toy-kid-second, #E76088);
+        color: var(--White, #FFF);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 1.7px;
+        text-transform: uppercase;
+        border: none;
+        padding: 14px 30px;
+    }
+
+    // .about_post_mobile{
+    //     display: none;
+    // }
+}
+
+.photo_right_button {
+    text-align: center;
+}
+
+@media (max-width:930px) {
+    .about_header_waper {
+        padding: 0px;
+    }
+
+    .about_evaluate_mobile {
+        width: 100%;
+
+    }
+    .evaluate_header_mobile p {
+        text-align: center;
+        margin: 0;
+        padding: 76px 0 30px 0;
+        color: var(--toy-kid-1-a-1114, #1A1114);
+        text-align: center;
+        font-family: Popions;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 47px;
+        text-transform: capitalize;
+
+    }
+
+    .all_review_mobile {
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+        text-align: center;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(10, 30, 35, 0.10);
+        margin-bottom: 20px;
+    }
+
+    .number_review_mobile p {
+        color: #EC80A0;
+        font-family: Poppins;
+        text-align: center;
+        padding: 30px 0 15.63px 0;
+        margin: 0;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 55px;
+        text-transform: capitalize
+    }
+
+    .all_review_title_mobile p {
+        color: #1A1114;
+        text-align: center;
+        margin: 0;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 31px;
+        padding-bottom: 10px;
+    }
+
+    .review_content_mobile p {
+        color: #0A1E23;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        padding:0 30px 30px 30px;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 0;
+
+    }
+
+    .about_post_mobile {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about_post_left_mobile {
+        width: 100%;
+        background: #E5F8FD;
+    }
+
+    .post_video_mobile img {
+        width: 100%;
+        
+    }
+    .post_video_mobile{
+        height: max-content;
+        position: relative;
+    }
+
+    .title_team_mobile{
+        color: var(--toy-kid-1-a-1114, #1A1114);
+        text-align: center;
+        font-family: Poppions;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px; 
+        text-transform: capitalize;
+        margin: 0;
+        padding: 60px 0 30px 0;
+    }
+    .about_post_content_mobile p {
+        text-align: center;
+        padding: 22px 40px 30px 40px;
+        color: var(--toy-kid-1-a-1114, #1A1114);
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        margin: 0;
+    }
+
+    .post_button_mobile button {
+        padding: 13px 30px;
+        align-items: flex-start;
+        border-radius: 10px;
+        background: var(--Toy-kid, #EC80A0);
+        gap: 10px;
+        border: none;
+        color: var(--White, #FFF);
+        font-family: Poppins;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        
+    }
+    .post_button_mobile{
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    .TextButton {
+        margin: 0;
+    }
+
+    .our_team_mobile {
+        width: 90%;
+        margin: auto;
+    }
+
+    .user_waper_mobile img {
+        margin-top: 40px;
+        width: 130px;
+        border-radius: 50%;
+        flex-shrink: 0;
+    }
+    .user_waper_mobile {
+        width: 100%;
+        text-align: center;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(10, 30, 35, 0.10);
+        margin-bottom: 20px;
+    }
+    .user_icon_mobile {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+        column-gap: 15px;
+        z-index: 1;
+    }
+    .user_name_mobile p {
+        color: #1A1114;
+        text-align: center;
+        font-family: Poppins;
+        margin: 0;
+        padding: 25px 0 5px 0;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 31px
+    }
+
+    .nick_name_mobile p {
+        color: #1A1114;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 15px;
+        opacity: 0.5;
+        margin: 0;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .description_mobile p {
+        color: var(--Ofice-Furnitured-text, #0A1E23);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 10px;
+        padding: 0 30px;
+    }
+    .about_header_mobile p {
+        color: var(--toy-kid-1-a-1114, #1A1114);
+        font-family: Poppins;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 47px;
+        margin: 0;
+        padding-top:60px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .header_tabs {
+        display: flex;
+        justify-content: center;
+        column-gap: 10px;
+        list-style: none;
+        padding-left: 0px;
+        margin: 0 0 47.2px 0;
+    }
+    .navbar {
+        text-decoration: none;
+        color: #111827;
+    }
+    .navbar::after {
+        content: "|";
+        font-weight: bold;
+        color: #999;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+    .navbar_link {
+        text-decoration: none;
+        color: #999;
+    }
+    // .transport_waper_mobile{
+    //     // display: none;
+    // }
+    .transport_wapper{
+        display: none;
+    }
+    .advertising_photo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 90%;
+        column-gap: 15px;
+        margin: auto;
+        // padding: 100px 152px;
+    }
+    .photo_left {
+        width: 47%;
+     
+        border-radius: 20px;
+    }
+    .photo_rights {
+        width: 100%;
+        border-radius: 20px;
+        background: #FDF4F7;
+    }
+    .photo_center {
+        width: 47%;
+    }
+    .photo_left img {
+        width: 100%;
+    }
+    .photo_center img {
+        width: 100%;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .photo_right_title {
+        color: var(--toy-kid-1-a-1114, #1A1114);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 30px;
+        padding: 30px 70px 20px 71px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        text-transform: capitalize;
+        margin: 0;
+        max-height: 368px;
+    }
+
+    .photo_right_text {
+        color: var(--Ofice-Furnitured-text, #0A1E23);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 0;
+        padding: 0 20px;
+    }
+
+    .photo_right_button button {
+        border-radius: 10px;
+        background: var(--toy-kid-second, #E76088);
+        color: var(--White, #FFF);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 1.7px;
+        text-transform: uppercase;
+        border: none;
+        padding:13px  30px;
+    }
+    .photo_right_button{
+        padding: 30px 0 ;
+    }
+    .photo_right_button_mobile  {
+        color: var(--toy-kid-1-a-1114, #1A1114);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+        text-transform: capitalize;
+        margin: 0 0 50px 0;
+    }
+    .post_header_mobile{
+        display: none;
+    }
+    .post_button_header_mobile button{
+        border-radius: 5px;  
+        background: rgba(236, 128, 160, 0.15);
+        padding: 7px 15px;
+        border: none;
+        text-align: center;
+        color: var(--Toy-kid, #EC80A0);
+        text-align: center;
+        font-family: Poppions;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+                
+    }
+    .post_button_header_mobile{
+       padding-top: 60px;
+       text-align: center;
+    }
+    .playVideo_mobile{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 150px;
+        left: 190px;
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+   
+
+}
